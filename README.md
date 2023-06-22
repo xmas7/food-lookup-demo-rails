@@ -3,11 +3,11 @@
 A brief introduction about your project goes here.
 
 
-## Prerequisites
+# Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+## You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
 | OS | Installers |
 | ----------- | ----------- |
@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 | All | [dotnet-install scripts](https://dotnet.microsoft.com/en-us/download/dotnet/scripts) |
 
 
-- You have installed [Azure Functions Core Tools v4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
+## You have installed [Azure Functions Core Tools v4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 
 Azure Functions Core Tools lets you develop and test your functions on your local computer from the command prompt or terminal. Your local functions can connect to live Azure services, and you can debug your functions on your local computer using the full Functions runtime.
 
@@ -27,11 +27,11 @@ Don't mix local development with portal development in the same function app. Wh
 
 
 
-## Installing & Running Locally
+# Installing & Running Locally
 
 Follow these steps to get your development environment set up and running locally
 
-1. **Clone the repository**
+## 1. Clone the repository
 
 ```bash
 git clone https://jordanfrazier@bitbucket.org/prepaidtech/dash-api.git
@@ -41,13 +41,13 @@ git clone git@bitbucket.org:prepaidtech/dash-api.git
 ```
 
 
-2. **Navigate to the project directory**
+## 2. Navigate to the project directory
 
 ```bash
 cd <project-name>
 ```
 
-3. **Install the dependencies**
+## 3. Install the dependencies
 
 Make sure to restore any dependencies for your project. If it's a .NET project, you can use the following command:
 
@@ -55,7 +55,7 @@ Make sure to restore any dependencies for your project. If it's a .NET project, 
 dotnet restore
 ```
 
-4. **Run the project**
+## 4. Run the project
 
 Start the Azure Functions runtime host using the following command:
 
@@ -63,13 +63,13 @@ Start the Azure Functions runtime host using the following command:
 func start
 ```
 
-## Usage
+# Usage
 
 After starting the function app, you can trigger your function by making a GET or POST request to `http://localhost:7071/api/<YourFunctionName>`.
 
 Replace `<YourFunctionName>` with the name of your function.
 
-## Contributing to Project
+# Contributing to Project
 
 To contribute to `<Project Name>`, follow these steps:
 
@@ -82,9 +82,6 @@ To contribute to `<Project Name>`, follow these steps:
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
-# H1
-## H2
-### H3
 **bold text**
 *italicized text*
 > blockquote
