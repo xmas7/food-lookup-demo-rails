@@ -1,4 +1,4 @@
-# Project Title
+# API v3 Development Environment Setup
 
 A brief introduction about your project goes here.
 
@@ -16,32 +16,35 @@ Follow these steps to get your development environment set up:
 
 1. **Clone the repository**
 
+```bash
+git clone https://jordanfrazier@bitbucket.org/prepaidtech/dash-api.git
 ```
-git clone <repo-url>
+```bash
+git clone git@bitbucket.org:prepaidtech/dash-api.git
 ```
 
 
 2. **Navigate to the project directory**
 
-\`\`\`bash
+```bash
 cd <project-name>
-\`\`\`
+```
 
 3. **Install the dependencies**
 
 Make sure to restore any dependencies for your project. If it's a .NET project, you can use the following command:
 
-\`\`\`bash
+```bash
 dotnet restore
-\`\`\`
+```
 
 4. **Run the project**
 
 Start the Azure Functions runtime host using the following command:
 
-\`\`\`bash
+```bash
 func start
-\`\`\`
+```
 
 ## Usage
 
@@ -61,10 +64,76 @@ To contribute to `<Project Name>`, follow these steps:
 
 Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## Contact
 
-If you want to contact me you can reach me at `<your_email@address.com>`.
+# H1
+## H2
+### H3
+**bold text**
+*italicized text*
+> blockquote
+1. First item
+2. Second item
+3. Third item
+- First item
+- Second item
+- Third item
+`code`
+---
+    [title](https://www.example.com)
 
-## License
+![alt text](image.jpg)
 
-This project uses the following license: `<license_name>`.
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+### My Great Heading {#custom-id}
+
+
+term
+: definition
+
+~~The world is flat.~~
+
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+That is so funny! :joy:
+
+I need to highlight these ==very important words==.
+
+H~2~O
+
+X^2^
+
+
+> :warning: **WARNING:** Be careful with this.
+
+
+
+**⚠️ WARNING: Be careful with this.**
+
+
+> This is the first line of the blockquote.
+> This is the second line of the blockquote.
+> This is the first line of the blockquote.
+> This is the second line of the blockquote.
+> This is the first line of the blockquote.
+> This is the second line of the blockquote.
