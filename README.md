@@ -16,9 +16,10 @@ Follow these steps to get your development environment set up:
 
 1. **Clone the repository**
 
-\`\`\`bash
+```
 git clone <repo-url>
-\`\`\`
+```
+
 
 2. **Navigate to the project directory**
 
