@@ -2,7 +2,7 @@
 
 A brief introduction about your project goes here.
 
-# Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -10,11 +10,11 @@ Before you begin, ensure you have met the following requirements:
 - You have installed [Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 - You have a basic understanding of C# or the programming language used in this project
 
-# Installing & Running Locally
+## Installing & Running Locally
 
 Follow these steps to get your development environment set up:
 
-## Clone the repository
+1. **Clone the repository**
 
 ```bash
 git clone https://jordanfrazier@bitbucket.org/prepaidtech/dash-api.git
@@ -24,7 +24,7 @@ git clone git@bitbucket.org:prepaidtech/dash-api.git
 ```
 
 
-## Navigate to the project directory
+2. **Navigate to the project directory**
 
 ```bash
 cd <project-name>
@@ -131,8 +131,6 @@ X^2^
 **⚠️ WARNING: Be careful with this.**
 
 
-> This is the first line of the blockquote.
-> This is the second line of the blockquote.
 > This is the first line of the blockquote.
 > This is the second line of the blockquote.
 > This is the first line of the blockquote.
