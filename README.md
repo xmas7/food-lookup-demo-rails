@@ -7,7 +7,7 @@ A brief introduction about your project goes here.
 
 Before you begin, ensure you have met the following requirements:
 
-### You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+## You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
 | OS | Installers |
 | ----------- | ----------- |
@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 | All | [dotnet-install scripts](https://dotnet.microsoft.com/en-us/download/dotnet/scripts) |
 
 
-### You have installed [Azure Functions Core Tools v4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
+## You have installed [Azure Functions Core Tools v4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 
 Azure Functions Core Tools lets you develop and test your functions on your local computer from the command prompt or terminal. Your local functions can connect to live Azure services, and you can debug your functions on your local computer using the full Functions runtime.
 
