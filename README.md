@@ -126,10 +126,20 @@ If the Function App is running correctly, you can see similar screen on the cons
 ![Azure Function App](https://drive.google.com/uc?id=1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5)
 
 
-## Usage
-After starting the function app, you can trigger your function by making a GET or POST request to `http://localhost:7071/api/<YourFunctionName>`.
+## Test with [Postman](https://www.postman.com/)
+Postman is a standalone software testing API platform to build, test, design, modify, and document APIs.
 
-Replace `<YourFunctionName>` with the name of your function.
+You can see OpenAPI definitions here for Function Apps.
+```
+dash-api\Dash.Terraform\modules
+```
+Once you have `Function App` up and running, you can import the OpenAPI definitions into Postman to test them out.
+
+```
+dash-api\Dash.Terraform\modules\cards-service\open-api-cards.yaml
+```
+
+![Postman Collection](https://drive.google.com/uc?id=13RKGzRgOYPKoMxqNdaPuRNT2BudPlN1z)
 
 <br/>
 
