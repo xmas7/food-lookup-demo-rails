@@ -57,10 +57,10 @@ dotnet restore
 ### 4. `host.json` and `local.settings.json`
 A Functions project directory contains the following files and folders, regardless of language:
 
-### local.settings.json
+#### local.settings.json
 Settings used by Core Tools when running locally, including app settings. To learn more, see [local settings.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#local-settings)
 
-### host.json
+#### host.json
 The global configuration file host.json includes settings that affect all functions deployed under the same function app.
 ```bash
 {
