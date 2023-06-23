@@ -5,7 +5,6 @@ A brief introduction about your project goes here.
 <br/>
 
 ## Prerequisites
----
 
 Before you begin, ensure you have met the following requirements:
 
@@ -37,17 +36,17 @@ Follow these steps to get your development environment set up and running locall
 
 ### 1. Clone the repository
 
-**Clone the repository using HTTPS.**
-```bash
-git clone https://jordanfrazier@bitbucket.org/prepaidtech/dash-api.git
-```
-
-**OR Clone the repository using SSH.**
+**Clone the repository using SSH.**
 ```bash
 git clone git@bitbucket.org:prepaidtech/dash-api.git
 ```
 > [Set up personal SSH keys on Windows | Bitbucket Cloud](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/)
 
+
+**Clone the repository using HTTPS.**
+```bash
+git clone https://<your-profile-name>@bitbucket.org/prepaidtech/dash-api.git
+```
 
 ### 2. Navigate to the project directory
 
@@ -131,7 +130,7 @@ Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-fun
 <br/>
 
 ## Usage
----
+
 After starting the function app, you can trigger your function by making a GET or POST request to `http://localhost:7071/api/<YourFunctionName>`.
 
 Replace `<YourFunctionName>` with the name of your function.
@@ -139,7 +138,6 @@ Replace `<YourFunctionName>` with the name of your function.
 <br/>
 
 ## Contributing to Project
----
 
 To contribute to `<Project Name>`, follow these steps:
 
@@ -149,16 +147,4 @@ To contribute to `<Project Name>`, follow these steps:
 4. Push to the original branch: `git push origin <project>/<location>`
 5. Create the pull request.
 
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-
-**bold text**
-*italicized text*
-
----
-
-
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+Alternatively see the Bitbucket documentation on [creating a pull request](https://support.atlassian.com/bitbucket-cloud/docs/create-a-pull-request/).
