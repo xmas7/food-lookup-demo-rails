@@ -1,5 +1,9 @@
 # API v3 Development Environment Setup
 
+A brief introduction about your project goes here.
+
+<br/>
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -28,7 +32,7 @@ Don't mix local development with portal development in the same function app. Wh
 Follow these steps to get your development environment set up and running locally
 
 
-### 1. Clone the repository
+#### 1. Clone the repository
 
 **Clone the repository using SSH.**
 ```bash
@@ -42,13 +46,13 @@ git clone git@bitbucket.org:prepaidtech/dash-api.git
 git clone https://<your-profile-name>@bitbucket.org/prepaidtech/dash-api.git
 ```
 
-### 2. Navigate to the project directory
+#### 2. Navigate to the project directory
 
 ```bash
 cd <project-name>
 ```
 
-### 3. Install the dependencies
+#### 3. Install the dependencies
 
 Run below command to restore all the necessary dependencies and packages for the project.
 
@@ -56,7 +60,7 @@ Run below command to restore all the necessary dependencies and packages for the
 dotnet restore
 ```
 
-### 4. host.json and local.settings.json
+#### 4. host.json and local.settings.json
 
 A Functions project directory contains the following files and folders, regardless of language:
 
@@ -95,7 +99,7 @@ App settings, connection strings, and settings utilized by local development are
 }
 ```
 
-### 5. Run the project
+#### 5. Run the project
 
 We have 5 `.NET Azure Function Apps` in our solution.
 ```
@@ -130,8 +134,6 @@ After starting the function app, you can trigger your function by making a GET o
 Replace `<YourFunctionName>` with the name of your function.
 
 <br/>
-
-Here's a sentence with a footnote. [^1]
 
 ## Contributing to Project
 
