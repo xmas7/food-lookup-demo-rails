@@ -3,7 +3,7 @@
 A brief introduction about your project goes here.
 
 
-## Prerequisites
+# Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
