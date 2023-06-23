@@ -1,11 +1,7 @@
 # API v3 Development Environment Setup
-
-A brief introduction about your project goes here.
-
-<br/>
+Instructions on setting up and running the v3 APIs locally.
 
 ## Prerequisites
-
 Before you begin, ensure you have met the following requirements:
 
 #### 1. You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
@@ -28,7 +24,6 @@ Don't mix local development with portal development in the same function app. Wh
 <br/>
 
 ## Installing & Running Locally
-
 Follow these steps to get your development environment set up and running locally
 
 
@@ -53,7 +48,6 @@ cd <project-name>
 ```
 
 ### 3. Install the dependencies
-
 Run below command to restore all the necessary dependencies and packages for the project.
 
 ```bash
@@ -61,7 +55,6 @@ dotnet restore
 ```
 
 ### 4. host.json and local.settings.json
-
 A Functions project directory contains the following files and folders, regardless of language:
 
 **host.json** <br/>
@@ -100,7 +93,6 @@ App settings, connection strings, and settings utilized by local development are
 ```
 
 ### 5. Run the project
-
 We have 5 `.NET Azure Function Apps` in our solution.
 ```
 Dash.Api.Audits.Functions
@@ -128,7 +120,6 @@ Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-fun
 <br/>
 
 ## Usage
-
 After starting the function app, you can trigger your function by making a GET or POST request to `http://localhost:7071/api/<YourFunctionName>`.
 
 Replace `<YourFunctionName>` with the name of your function.
@@ -136,7 +127,6 @@ Replace `<YourFunctionName>` with the name of your function.
 <br/>
 
 ## Contributing to Project
-
 To contribute to `<Project Name>`, follow these steps:
 
 1. Fork this repository.
@@ -146,4 +136,3 @@ To contribute to `<Project Name>`, follow these steps:
 5. Create the pull request.
 
 Alternatively see the Bitbucket documentation on [creating a pull request](https://support.atlassian.com/bitbucket-cloud/docs/create-a-pull-request/).
-
