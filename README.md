@@ -8,8 +8,6 @@ A brief introduction about your project goes here.
 
 Before you begin, ensure you have met the following requirements:
 
-<br/>
-
 ### 1. You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
 | OS | Installers |
