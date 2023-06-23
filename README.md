@@ -81,13 +81,12 @@ To learn more, see the [host.json reference.](https://learn.microsoft.com/en-us/
 
 ### 5. Run the project
 We have `5 .NET Azure Function Apps` in our solution.
-```
-Dash.Api.Audits.Functions
+
+>Dash.Api.Audits.Functions
 Dash.Api.Cards.Functions
 Dash.Api.Payments.Functions
 Dash.Api.Users.Functions
 Dash.Api.Webhooks.Functions
-```
 
 Navigate to the project directory you want it to be running. <br/>
 Using the following command to Start the Azure Functions runtime host.
