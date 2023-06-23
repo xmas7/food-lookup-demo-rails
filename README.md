@@ -2,10 +2,13 @@
 
 A brief introduction about your project goes here.
 
+<br/>
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
+
+<br/>
 
 ### 1. You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
@@ -16,6 +19,7 @@ Before you begin, ensure you have met the following requirements:
 | Widnows | [x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.304-windows-x64-installer) I [x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.304-windows-x86-installer)|
 | All | [dotnet-install scripts](https://dotnet.microsoft.com/en-us/download/dotnet/scripts) |
 
+<br/>
 
 ### 2. You have installed [Azure Functions Core Tools v4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 
@@ -24,12 +28,13 @@ Azure Functions Core Tools lets you develop and test your functions on your loca
 >⚠️ Note <br/>
 Don't mix local development with portal development in the same function app. When you create and publish functions from a local project, you won't be able to maintain or modify project code in the portal.
 
-
-
+<br/>
 
 ## Installing & Running Locally
 
 Follow these steps to get your development environment set up and running locally
+
+<br/>
 
 ### 1. Clone the repository
 
@@ -45,11 +50,15 @@ git clone git@bitbucket.org:prepaidtech/dash-api.git
 > [Set up personal SSH keys on Windows | Bitbucket Cloud](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/)
 
 
+<br/>
+
 ### 2. Navigate to the project directory
 
 ```bash
 cd <project-name>
 ```
+
+<br/>
 
 ### 3. Install the dependencies
 
@@ -58,6 +67,8 @@ Run below command to restore all the necessary dependencies and packages for the
 ```bash
 dotnet restore
 ```
+
+<br/>
 
 ### 4. host.json and local.settings.json
 
@@ -97,6 +108,7 @@ App settings, connection strings, and settings utilized by local development are
     } 
 }
 ```
+<br/>
 
 ### 5. Run the project
 
@@ -117,16 +129,22 @@ func start
 ```
 <br/> 
 
+If the Function App is running correctly, you can see similar screen on the console.
+![Azure Function App](https://drive.google.com/uc?id=1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5)
+
+
 >⚠️ Note <br/>
 Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json) and [local.settings.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#local-settings) files and those are configured properly before running the Function App.
 
-![Azure Function App](https://drive.google.com/uc?id=1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5)
+<br/>
 
 ## Usage
 
 After starting the function app, you can trigger your function by making a GET or POST request to `http://localhost:7071/api/<YourFunctionName>`.
 
 Replace `<YourFunctionName>` with the name of your function.
+
+<br/>
 
 ## Contributing to Project
 
@@ -143,68 +161,11 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 **bold text**
 *italicized text*
-> blockquote
-1. First item
-2. Second item
-3. Third item
-- First item
-- Second item
-- Third item
-`code`
+
 ---
-    [title](https://www.example.com)
 
-![alt text](image.jpg)
-
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
-Here's a sentence with a footnote. [^1]
-
-[^1]: This is the footnote.
-
-### My Great Heading {#custom-id}
-
-
-term
-: definition
-
-~~The world is flat.~~
 
 
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-
-
-That is so funny! :joy:
-
-I need to highlight these ==very important words==.
-
-H~2~O
-
-X^2^
-
-
-> :warning: **WARNING:** Be careful with this.
-
-
-
-**⚠️ WARNING: Be careful with this.**
-
-
-> This is the first line of the blockquote.
-> This is the second line of the blockquote.
-> This is the first line of the blockquote.
-> This is the second line of the blockquote.
