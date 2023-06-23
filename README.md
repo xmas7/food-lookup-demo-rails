@@ -139,8 +139,6 @@ Once you have `Function App` up and running, you can import the OpenAPI definiti
 dash-api\Dash.Terraform\modules\cards-service\open-api-cards.yaml
 ```
 
-![Postman Collection](https://drive.google.com/uc?id=13RKGzRgOYPKoMxqNdaPuRNT2BudPlN1z)
-
 <br/>
 
 ## Contributing to Project
