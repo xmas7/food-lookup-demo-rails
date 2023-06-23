@@ -123,7 +123,7 @@ Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-fun
 <br/> 
 
 If the Function App is running correctly, you can see similar screen on the console.
-![Azure Function App](https://drive.google.com/uc?id=1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5)
+<img src="https://drive.google.com/uc?id=1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5" alt="Azure Function App">
 
 
 ## Test with [Postman](https://www.postman.com/)
@@ -138,6 +138,8 @@ Once you have `Function App` up and running, you can import the OpenAPI definiti
 ```
 dash-api\Dash.Terraform\modules\cards-service\open-api-cards.yaml
 ```
+
+<img src="https://drive.google.com/uc?id=13RKGzRgOYPKoMxqNdaPuRNT2BudPlN1z" alt="Postman Collection">
 
 <br/>
 
