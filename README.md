@@ -7,7 +7,7 @@ A brief introduction about your project goes here.
 
 Before you begin, ensure you have met the following requirements:
 
-### You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+## 1. You have installed [.NET 7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 
 | OS | Installers |
 | ----------- | ----------- |
@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 | All | [dotnet-install scripts](https://dotnet.microsoft.com/en-us/download/dotnet/scripts) |
 
 
-### You have installed [Azure Functions Core Tools v4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
+## 2. You have installed [Azure Functions Core Tools v4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 
 Azure Functions Core Tools lets you develop and test your functions on your local computer from the command prompt or terminal. Your local functions can connect to live Azure services, and you can debug your functions on your local computer using the full Functions runtime.
 
@@ -33,12 +33,12 @@ Follow these steps to get your development environment set up and running locall
 
 ## 1. Clone the repository
 
-Clone the repository using HTTPS.
+**Clone the repository using HTTPS.**
 ```bash
 git clone https://jordanfrazier@bitbucket.org/prepaidtech/dash-api.git
 ```
 
-Clone the repository using SSH.
+**OR Clone the repository using SSH.**
 ```bash
 git clone git@bitbucket.org:prepaidtech/dash-api.git
 ```
