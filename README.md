@@ -1,8 +1,4 @@
-# API v3 Development Environment Setup
-
-A brief introduction about your project goes here.
-
-<br/>
+## API v3 Development Environment Setup
 
 ## Prerequisites
 
