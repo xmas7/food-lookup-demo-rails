@@ -21,7 +21,14 @@ Azure Functions Core Tools lets you develop and test your functions on your loca
 >⚠️ Note <br/>
 Don't mix local development with portal development in the same function app. When you create and publish functions from a local project, you won't be able to maintain or modify project code in the portal.
 
+#### Local storage emulator
+During local development, you can use the local [Azurite emulator](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite) when testing functions with Azure Storage bindings (Queue Storage, Blob Storage, and Table Storage), without having to connect to remote storage services. Azurite integrates with Visual Studio Code and Visual Studio, and you can also run it from the command prompt using npm. For more information, see [Use the Azurite emulator for local Azure Storage development.](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite)
 <br/>
+
+The following setting in the Values collection of the local.settings.json file tells the local Functions host to use Azurite for the default AzureWebJobsStorage connection:
+```JSON
+"AzureWebJobsStorage": "UseDevelopmentStorage=true"
+```
 
 ## Installing & Running Locally
 Follow these steps to get your development environment set up and running locally
