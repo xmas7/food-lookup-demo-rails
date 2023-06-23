@@ -1,4 +1,4 @@
-## API v3 Development Environment Setup
+# API v3 Development Environment Setup
 
 ## Prerequisites
 
