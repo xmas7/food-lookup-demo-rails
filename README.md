@@ -33,12 +33,16 @@ Follow these steps to get your development environment set up and running locall
 
 ## 1. Clone the repository
 
+Clone the repository using HTTPS.
 ```bash
 git clone https://jordanfrazier@bitbucket.org/prepaidtech/dash-api.git
 ```
+
+Clone the repository using SSH.
 ```bash
 git clone git@bitbucket.org:prepaidtech/dash-api.git
 ```
+> [Set up personal SSH keys on Windows | Bitbucket Cloud](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/)
 
 
 ## 2. Navigate to the project directory
