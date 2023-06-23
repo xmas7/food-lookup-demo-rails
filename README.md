@@ -53,19 +53,74 @@ cd <project-name>
 
 ### 3. Install the dependencies
 
-Make sure to restore any dependencies for your project. If it's a .NET project, you can use the following command:
+Run below command to restore all the necessary dependencies and packages for the project.
 
 ```bash
 dotnet restore
 ```
 
-### 4. Run the project
+### 4. host.json and local.settings.json
 
-Start the Azure Functions runtime host using the following command:
+A Functions project directory contains the following files and folders, regardless of language:
+
+**host.json** <br/>
+The global configuration file host.json includes settings that affect all functions deployed under the same function app.
+```bash
+{
+    "version": "2.0",
+    "logging": {
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            } 
+        } 
+    } 
+}
+```
+
+**local.settings.json** <br/>
+App settings, connection strings, and settings utilized by local development are all stored in the local.settings.json file. This file is only used when projects are run locally.
+
+```bash
+{
+    "IsEncrypted": false,
+    "Values" : {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "MyConnection": "<connection-string-to-your-databse>",
+        "MyOptions:Option1": "value",
+        "MyOptions:Option2": "value"
+    },
+    "ConnectionStrings": {
+        "DefaultConnection": "UseDevelopmentStorage=true"
+    } 
+}
+```
+
+### 5. Run the project
+
+We have 5 `.NET Azure Function Apps` in our solution.
+```
+Dash.Api.Audits.Functions
+Dash.Api.Cards.Functions
+Dash.Api.Payments.Functions
+Dash.Api.Users.Functions
+Dash.Api.Webhooks.Functions
+```
+
+Navigate to the project directory you want to run. <br/>
+Using the following command to Start the Azure Functions runtime host.
 
 ```bash
 func start
 ```
+<br/> 
+
+>⚠️ Note <br/>
+Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json) and [local.settings.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#local-settings) files and those are configured properly before running the Function App.
+
+![Azure Function App](https://drive.google.com/file/d/1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5/view?usp=sharing)
 
 ## Usage
 
