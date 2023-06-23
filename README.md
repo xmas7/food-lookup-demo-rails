@@ -30,7 +30,7 @@ The following setting in the Values collection of the local.settings.json file t
 "AzureWebJobsStorage": "UseDevelopmentStorage=true"
 ```
 
-## Installing & Running Locally
+## Installing & Running
 Follow these steps to get your development environment set up and running locally
 
 
@@ -133,8 +133,9 @@ You can see OpenAPI definitions here for Function Apps.
 ```
 dash-api\Dash.Terraform\modules
 ```
-Once you have `Function App` up and running, you can import the OpenAPI definitions into Postman to test them out.
+Once you have `Function App` up and running, you can import the OpenAPI definitions into Postman to test them out. <br/>
 
+e.g. Dash Cards API
 ```
 dash-api\Dash.Terraform\modules\cards-service\open-api-cards.yaml
 ```
@@ -142,6 +143,9 @@ dash-api\Dash.Terraform\modules\cards-service\open-api-cards.yaml
 <img src="https://drive.google.com/uc?id=13RKGzRgOYPKoMxqNdaPuRNT2BudPlN1z" alt="Postman Collection">
 
 <br/>
+
+>⚠️ Note <br/>
+Make sure you are using [Postman Desktop Agent](https://learning.postman.com/docs/getting-started/installation-and-updates/#installing-the-postman-desktop-agent)
 
 ## Contributing to Project
 To contribute to `<Project Name>`, follow these steps:
