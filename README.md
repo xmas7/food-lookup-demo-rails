@@ -22,7 +22,7 @@ Azure Functions Core Tools lets you develop and test your functions on your loca
 Don't mix local development with portal development in the same function app. When you create and publish functions from a local project, you won't be able to maintain or modify project code in the portal.
 
 #### 3. Local storage emulator [Azurite](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite)
-During local development, you can use the local [Azurite emulator](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite) when testing functions with Azure Storage bindings (Queue Storage, Blob Storage, and Table Storage), without having to connect to remote storage services. Azurite integrates with Visual Studio Code and Visual Studio, and you can also run it from the command prompt using npm. For more information, see [Use the Azurite emulator for local Azure Storage development.](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite)
+During local development, you can use the local [Azurite emulator](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite) when testing functions with Azure Storage bindings, without having to connect to remote storage services. Azurite integrates with Visual Studio Code and Visual Studio, and you can also run it from the command prompt using npm. For more information, see [Use the Azurite emulator for local Azure Storage development.](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite)
 <br/>
 
 The following setting in the Values collection of the local.settings.json file tells the local Functions host to use Azurite for the default AzureWebJobsStorage connection:
@@ -34,37 +34,37 @@ The following setting in the Values collection of the local.settings.json file t
 Follow these steps to get your development environment set up and running locally
 
 
-### 1. Clone the repository
+#### 1. Clone the repository
 
-**Clone the repository using SSH.**
+*Clone the repository using SSH.*
 ```bash
 git clone git@bitbucket.org:prepaidtech/dash-api.git
 ```
 > Set up personal [SSH keys](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/) on Windows | Bitbucket Cloud
 
 
-**Clone the repository using HTTPS.**
+*Clone the repository using HTTPS.*
 ```bash
 git clone https://<your-profile-name>@bitbucket.org/prepaidtech/dash-api.git
 ```
 
-### 2. Navigate to the project directory
+#### 2. Navigate to the project directory
 
 ```bash
 cd <project-name>
 ```
 
-### 3. Install the dependencies
+#### 3. Install the dependencies
 Run below command to restore all the necessary dependencies and packages for the project.
 
 ```bash
 dotnet restore
 ```
 
-### 4. Configuration Files
+#### 4. Configuration Files
 A Functions project directory contains the following files and folders, regardless of language:
 
-#### `local.settings.json`
+***`local.settings.json`*** <br/>
 Settings used by Core Tools when running locally, including app settings. To learn more, see [local settings.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#local-settings)
 
 ```bash
@@ -83,7 +83,7 @@ Settings used by Core Tools when running locally, including app settings. To lea
 }
 ```
 
-#### `host.json`
+***`host.json`*** <br/>
 The global configuration file host.json includes settings that affect all functions deployed under the same function app. To learn more, see the [host.json reference.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json)
 
 ```bash
@@ -101,7 +101,7 @@ The global configuration file host.json includes settings that affect all functi
 ```
 
 
-### 5. Run the project
+#### 5. Run the project
 We have `5 .NET Azure Function Apps` in our solution.
 
 >Dash.Api.Audits.Functions <br/>
