@@ -5,6 +5,7 @@ A brief introduction about your project goes here.
 <br/>
 
 ## Prerequisites
+---
 
 Before you begin, ensure you have met the following requirements:
 
@@ -19,7 +20,6 @@ Before you begin, ensure you have met the following requirements:
 | Widnows | [x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.304-windows-x64-installer) I [x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.304-windows-x86-installer)|
 | All | [dotnet-install scripts](https://dotnet.microsoft.com/en-us/download/dotnet/scripts) |
 
-<br/>
 
 ### 2. You have installed [Azure Functions Core Tools v4.x](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 
@@ -34,7 +34,6 @@ Don't mix local development with portal development in the same function app. Wh
 
 Follow these steps to get your development environment set up and running locally
 
-<br/>
 
 ### 1. Clone the repository
 
@@ -50,15 +49,11 @@ git clone git@bitbucket.org:prepaidtech/dash-api.git
 > [Set up personal SSH keys on Windows | Bitbucket Cloud](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/)
 
 
-<br/>
-
 ### 2. Navigate to the project directory
 
 ```bash
 cd <project-name>
 ```
-
-<br/>
 
 ### 3. Install the dependencies
 
@@ -67,8 +62,6 @@ Run below command to restore all the necessary dependencies and packages for the
 ```bash
 dotnet restore
 ```
-
-<br/>
 
 ### 4. host.json and local.settings.json
 
@@ -108,7 +101,6 @@ App settings, connection strings, and settings utilized by local development are
     } 
 }
 ```
-<br/>
 
 ### 5. Run the project
 
@@ -139,7 +131,7 @@ Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-fun
 <br/>
 
 ## Usage
-
+---
 After starting the function app, you can trigger your function by making a GET or POST request to `http://localhost:7071/api/<YourFunctionName>`.
 
 Replace `<YourFunctionName>` with the name of your function.
@@ -147,6 +139,7 @@ Replace `<YourFunctionName>` with the name of your function.
 <br/>
 
 ## Contributing to Project
+---
 
 To contribute to `<Project Name>`, follow these steps:
 
