@@ -135,6 +135,8 @@ Replace `<YourFunctionName>` with the name of your function.
 
 <br/>
 
+Here's a sentence with a footnote. [^1]
+
 ## Contributing to Project
 
 To contribute to `<Project Name>`, follow these steps:
@@ -146,3 +148,4 @@ To contribute to `<Project Name>`, follow these steps:
 5. Create the pull request.
 
 Alternatively see the Bitbucket documentation on [creating a pull request](https://support.atlassian.com/bitbucket-cloud/docs/create-a-pull-request/).
+
