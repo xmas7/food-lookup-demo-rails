@@ -120,7 +120,7 @@ func start
 >⚠️ Note <br/>
 Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json) and [local.settings.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#local-settings) files and those are configured properly before running the Function App.
 
-![Azure Function App](https://drive.google.com/file/d/1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5/view?usp=sharing)
+![Azure Function App](https://drive.google.com/uc?id=1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5)
 
 ## Usage
 
