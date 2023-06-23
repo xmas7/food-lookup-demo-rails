@@ -116,16 +116,15 @@ Using the following command to Start the Azure Functions runtime host.
 ```bash
 func start
 ```
+
+>⚠️ Note <br/>
+Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json) and [local.settings.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#local-settings) files and those are configured properly before running the Function App.
+
 <br/> 
 
 If the Function App is running correctly, you can see similar screen on the console.
 ![Azure Function App](https://drive.google.com/uc?id=1nHXS7dSVVQ-73QhGAfDPI9v8WEtr4OO5)
 
-
->⚠️ Note <br/>
-Make sure you have [host.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json) and [local.settings.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#local-settings) files and those are configured properly before running the Function App.
-
-<br/>
 
 ## Usage
 After starting the function app, you can trigger your function by making a GET or POST request to `http://localhost:7071/api/<YourFunctionName>`.
