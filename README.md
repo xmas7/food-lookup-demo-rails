@@ -72,28 +72,14 @@ The global configuration file host.json includes settings that affect all functi
     } 
 }
 ```
+To learn more, see the [host.json reference.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json)
 
 **local.settings.json** <br/>
-App settings, connection strings, and settings utilized by local development are all stored in the local.settings.json file. This file is only used when projects are run locally.
+Settings used by Core Tools when running locally, including app settings. To learn more, see [local settings.](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cwindows%2Ccsharp%2Cportal%2Cbash#local-settings)
 
-```bash
-{
-    "IsEncrypted": false,
-    "Values" : {
-        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
-        "MyConnection": "<connection-string-to-your-databse>",
-        "MyOptions:Option1": "value",
-        "MyOptions:Option2": "value"
-    },
-    "ConnectionStrings": {
-        "DefaultConnection": "UseDevelopmentStorage=true"
-    } 
-}
-```
 
 ### 5. Run the project
-We have 5 `.NET Azure Function Apps` in our solution.
+We have `5 .NET Azure Function Apps` in our solution.
 ```
 Dash.Api.Audits.Functions
 Dash.Api.Cards.Functions
@@ -102,7 +88,7 @@ Dash.Api.Users.Functions
 Dash.Api.Webhooks.Functions
 ```
 
-Navigate to the project directory you want to run. <br/>
+Navigate to the project directory you want it to be running. <br/>
 Using the following command to Start the Azure Functions runtime host.
 
 ```bash
