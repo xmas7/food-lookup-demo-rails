@@ -33,7 +33,7 @@ Follow these steps to get your development environment set up and running locall
 ```bash
 git clone git@bitbucket.org:prepaidtech/dash-api.git
 ```
-> [Set up personal SSH keys on Windows | Bitbucket Cloud](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/)
+> Set up personal [SSH keys](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/) on Windows | Bitbucket Cloud
 
 
 **Clone the repository using HTTPS.**
