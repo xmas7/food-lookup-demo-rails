@@ -54,7 +54,7 @@ Run below command to restore all the necessary dependencies and packages for the
 dotnet restore
 ```
 
-### 4. host.json and local.settings.json
+### 4. `host.json` and `local.settings.json`
 A Functions project directory contains the following files and folders, regardless of language:
 
 **host.json** <br/>
